@@ -135,7 +135,7 @@ Global-Petrol-Price-Prediction/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Global-Petrol-Price-Prediction.git
+git clone git clone https://github.com/Monika1870/Global-Petrol-Price-Prediction.git
 
 cd Global-Petrol-Price-Prediction
 ```
