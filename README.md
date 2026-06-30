@@ -145,6 +145,7 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+> **Note:** If you only want to make predictions, you do not need to run the training notebook. Simply load `petrol_price_model.pkl` using `joblib.load()`. The saved pipeline already includes preprocessing (encoding, scaling, and the trained Ridge Regression model). Ensure `petrol_price_model.pkl` is in your current working directory, or provide its file path when loading the model.
 
 ---
 
