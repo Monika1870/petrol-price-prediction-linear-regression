@@ -113,20 +113,6 @@ The complete preprocessing pipeline and trained model are saved as:
 petrol_price_model.pkl
 ```
 
----
-
-## 📂 Project Structure
-
-```text
-Global-Petrol-Price-Prediction/
-│
-├── Petrol_Price_Prediction_LinearRegression.ipynb
-├── petrol_price_model.pkl
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── LICENSE
-```
 
 ---
 
