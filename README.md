@@ -1,6 +1,6 @@
-# ⛽ Global Petrol Price Prediction using Machine Learning
+# Global Petrol Price Prediction using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 
 This project predicts petrol prices using machine learning techniques based on economic and geographical factors such as region, income level, subsidy level, Brent crude oil prices, and tax percentages.
 
@@ -8,7 +8,7 @@ The project covers the complete machine learning workflow, including data prepro
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Petrol prices vary significantly across countries due to several factors such as fuel taxes, government subsidies, crude oil prices, and economic conditions.
 
@@ -16,7 +16,7 @@ The objective of this project is to analyze these factors and build a machine le
 
 ---
 
-## 📊 Dataset Features
+## Dataset Features
 
 | Feature         | Description                      |
 | --------------- | -------------------------------- |
@@ -32,7 +32,7 @@ The objective of this project is to analyze these factors and build a machine le
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The following analyses were performed:
 
@@ -46,7 +46,7 @@ The following analyses were performed:
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 ### One-Hot Encoding
 
@@ -67,7 +67,7 @@ Applied to:
 
 ---
 
-## 🤖 Machine Learning Models Implemented
+## Machine Learning Models Implemented
 
 * Linear Regression
 * Ridge Regression
@@ -76,7 +76,7 @@ Applied to:
 
 ---
 
-## 📈 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 Models were evaluated using:
 
@@ -87,7 +87,7 @@ Models were evaluated using:
 
 ---
 
-## 🔄 Log Transformation
+## Log Transformation
 
 The target variable was log-transformed to improve homoscedasticity and reduce residual variance, leading to improved regression performance.
 
@@ -99,7 +99,7 @@ np.exp(prediction)
 
 ---
 
-## 🏆 Final Model
+## Final Model
 
 The final model uses:
 
@@ -116,7 +116,7 @@ petrol_price_model.pkl
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone the repository:
 
@@ -135,7 +135,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💾 Load the Model
+## Load the Model
 
 ```python
 import joblib
@@ -145,7 +145,7 @@ model = joblib.load("petrol_price_model.pkl")
 
 ---
 
-## 🔮 Example Prediction
+## Example Prediction
 
 ```python
 import pandas as pd
@@ -171,7 +171,7 @@ print("Predicted Petrol Price:", round(prediction[0], 2))
 
 ---
 
-## 🛠️ Libraries Used
+## Libraries Used
 
 * NumPy
 * Pandas
@@ -182,7 +182,7 @@ print("Predicted Petrol Price:", round(prediction[0], 2))
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Monika Gautam**
 
